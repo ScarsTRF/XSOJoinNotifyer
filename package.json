@@ -1,11 +1,22 @@
 {
   "name": "xsjnv2",
-  "version": "2.1",
+  "version": "1.0.0",
   "description": "XSJoinNotifier V2",
   "main": "index.js",
   "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "pkg": {
+    "assets": [
+    "./node_modules/node-fetch",
+    "./node_modules/dgram",
+    "./node_modules/sharp",
+    "./node_modules/fs",
+    "./node_modules/express",
+    "./node_modules/body-parser",
+    "./node_modules/path"
+    ]
   },
   "author": "",
   "license": "ISC",
@@ -14,6 +25,7 @@
     "dgram": "^1.0.1",
     "express": "^4.18.1",
     "node-fetch": "^2.6.7",
+    "pkg": "^5.8.0",
     "sharp": "^0.31.0"
   }
 }
