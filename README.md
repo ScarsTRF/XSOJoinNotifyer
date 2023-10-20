@@ -21,4 +21,4 @@ After you have installed and prepped all your flux onto your avatar, you just wa
 
 ## Notice
 
-This app does **NOT** install onto your PC, you'll need to find a way to have this app run as a service or next to Resonite if you want this to run automatically as it is required for the Flux to communicate with XS Overlay.
+This app does **NOT** install onto your PC, you'll need to find a way to have this app run as a service or next to Resonite if you want this to run automatically as it is required for the Flux to communicate with XS Overlay. I will consider about adding a service installer in the future.
