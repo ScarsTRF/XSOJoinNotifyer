@@ -1,10 +1,11 @@
 {
   "name": "xsjnv2",
-  "version": "1.0.0",
+  "version": "2.1",
   "description": "XSJoinNotifier V2",
   "main": "index.js",
   "bin": "index.js",
   "scripts": {
+    "build": "pkg index.js --targets node12-win-x64 --output build/XSJNv2",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "pkg": {
